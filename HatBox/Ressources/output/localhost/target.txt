@@ -1,0 +1,1 @@
+http://localhost:8080/testmysql.php?id=1 (GET)

